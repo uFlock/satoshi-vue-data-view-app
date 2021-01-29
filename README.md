@@ -6,21 +6,21 @@ npm install
 ```
 
 ### Compiles and hot-reloads for development
-Warning: won't work without .env.development file
+Warning: won't work without .env.development.local file
 ```
 npm run serve
 ```
-.env.local example:
+.env.development.local example:
 ```dotenv
 VUE_APP_LOGIN_API_URL=http://localhost:1337/api/user/login
 VUE_APP_GET_USER_DETAILS_API_URL=http://localhost:1337/api/user/details
 ```
 ### Compiles and minifies for production
-Warning: won't work without .env.development file
+Warning: won't work without .env.production.local file
 ```
 npm run build
 ```
-.env.local example:
+.env.production.local example:
 ```dotenv
 VUE_APP_LOGIN_API_URL=http://localhost:1337/api/user/login
 VUE_APP_GET_USER_DETAILS_API_URL=http://localhost:1337/api/user/details
