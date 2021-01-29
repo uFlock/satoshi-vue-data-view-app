@@ -1,4 +1,4 @@
-# satoshi
+# satoshi-data-view
 
 ## Project setup
 ```
